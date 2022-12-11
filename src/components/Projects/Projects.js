@@ -7,7 +7,7 @@ const Projects = () => {
            <h1 className='text-2xl uppercase'>My projects</h1> 
            <hr className='border-2'/>
            </div>
-            <div className="carousel w-full mt-10">
+            <div className="carousel w-full mt-4">
             <div id="slide1" className="carousel-item relative w-full">
                 <div className='w-full border'>
                 <div className="card lg:card-side bg-base-100 shadow-xl">
