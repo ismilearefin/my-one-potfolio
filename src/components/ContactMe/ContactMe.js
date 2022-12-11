@@ -23,6 +23,12 @@ const ContactMe = () => {
                 <p>0130-3105521</p>
             </div>
            </div>
+           <form>
+           <input type="text" placeholder="Type here" className="input input-bordered w-full my-2" />
+           <input type="text" placeholder="Type here" className="input input-bordered w-full mb-2" />
+           <textarea className="textarea textarea-bordered w-full h-32" placeholder="Bio"></textarea>
+           <button className='btn px-6'>Send Message</button>
+           </form>
         </div>
     );
 };
